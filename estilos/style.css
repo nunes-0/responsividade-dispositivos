@@ -28,31 +28,8 @@ padding: 10px;
 }
 h2 {
     color: white;
-    padding: 10px; 
-}
-
-/* celulares    */
-
-@media(max-width: 450px) {
-
-
-h1, h2 {
-    color: white;
-  
-}
-body {
-  background-position:left bottom;
-}
-   }
-
-/* tablets */
-   @media (min-width: 768px) and (max-width: 1024px) {
-
-  h1, h2 { 
-    color:  white;
-  }
-
-}
+    padding: 10px;
+        }
  /* orientacão horizontal    */
    
 @media (orientation: landscape) {
