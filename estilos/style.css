@@ -16,34 +16,41 @@ height: 100vw;
 background-color: #233eff;
 background-size: contain;
 background-repeat: no-repeat;
+background-position: bottom;
 }
 
 h1 {
 
-color: rgba(255, 255, 255, 0.945) ;
+color: white ;
 text-shadow: 2px 2px 0px #1526a7 ;
 padding: 10px;
 }
 h2 {
     color: white;
-    padding: 10px;
+    padding: 20px;
         }
  
-   /* declarações paisagem */
-@media (orientation: landscape) {
-
-  body {
-    background-image: url(../imagens/cev-landscape.jpg);
+ /* declarações retrato/em pé */ 
+@media screen and (orientation: portrait) { 
+  body  {
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position:center bottom ;
     
- background-position: left bottom;
   }
+  
+}
+@media screen and (orientation: landscape) {
+  body {
+  background-image: url(../imagens/cev-landscape.jpg);
+background-position: left bottom;
+
+
 
 }
-/* declarações retrato */
-@media  (orientation: portrait) {
-body {
-background-image: url(../imagens/cev-portrait.jpg);
+  
 
-background-position: center bottom;
-}
+
+
+
+
 }
